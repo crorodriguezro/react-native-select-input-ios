@@ -6,6 +6,7 @@
 import CustomKeyboard from './CustomKeyboard.js';
 import styles from './../stylesheets/pickerKeyboard.css.js';
 
+
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 
@@ -76,8 +77,6 @@ class PickerKeyboard extends Component {
         buttonsBackgroundColor={props.buttonsBackgroundColor}
         buttonsTextColor={props.buttonsTextColor}
         buttonsTextSize={props.buttonsTextSize}
-        buttonsBorderColor={props.buttonsBorderColor}
-        buttonsBorderWidth={props.buttonsBorderWidth}
         cancelKeyText={props.cancelKeyText}
         onCancelPress={this.onCancelPress.bind(this)}
         onSubmitPress={this.onSubmitPress.bind(this)}
@@ -110,8 +109,6 @@ class PickerKeyboard extends Component {
 
 PickerKeyboard.propTypes = {
   buttonsBackgroundColor: PropTypes.string,
-  buttonsBorderColor:     PropTypes.string,
-  buttonsBorderWidth:     PropTypes.number,
   buttonsTextColor:       PropTypes.string,
   buttonsTextSize:        PropTypes.number,
   cancelKeyText:          PropTypes.string,

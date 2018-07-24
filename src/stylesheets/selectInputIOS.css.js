@@ -9,8 +9,23 @@ const styles = StyleSheet.create({
   },
   defaultlabelstyle: {
     alignSelf:                  'center',
-    fontSize:                   13,
+    backgroundColor:'transparent',    
+    color: '#ffffff',
+    // fontWeight: '700',
+    fontSize:                   20,
   },
+  validIcon: {
+    color: '#ffffff',
+    backgroundColor:'transparent',
+    right: 0,
+    position: 'absolute'     
+  },
+  identyIcon: {
+    color: '#ffffff',
+    backgroundColor:'transparent',
+    left: 8,
+    position: 'absolute'     
+  }
 });
 
 export default styles;

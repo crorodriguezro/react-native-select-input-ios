@@ -9,7 +9,9 @@ const styles = StyleSheet.create({
   },
   defaultlabelstyle: {
     alignSelf:                  'center',
-    fontSize:                   13,
+    color: '#f88c3f',
+    fontWeight: '700',
+    // fontSize:                   13,
   },
 });
 

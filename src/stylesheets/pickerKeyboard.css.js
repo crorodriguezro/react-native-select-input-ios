@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   },
   pickerview: {
     width:                      SCREEN_WIDTH,
-  },
+  }
 });
 
 export default styles;
