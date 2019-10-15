@@ -86,7 +86,7 @@ SelectInput.propTypes = {
   onSubmitEditing:         PropTypes.func,
   options:                 PropTypes.array,
   submitKeyText:           PropTypes.string,
-  style:                   PropTypes.oneOfType([ViewPropTypes.style, PropTypes.arrayOf(ViewPropTypes.style)]),
+  style:                   PropTypes.object,
   value:                   PropTypes.any,
 };
 
