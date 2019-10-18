@@ -10,18 +10,18 @@ const styles = StyleSheet.create({
   defaultlabelstyle: {
     alignSelf:                  'center',
     backgroundColor:'transparent',    
-    color: '#ffffff',
+    color: '#000000',
     // fontWeight: '700',
     fontSize:                   20,
   },
   validIcon: {
-    color: '#ffffff',
+    color: '#000000',
     backgroundColor:'transparent',
     right: 0,
     position: 'absolute'     
   },
   identyIcon: {
-    color: '#ffffff',
+    color: '#000000',
     backgroundColor:'transparent',
     left: 8,
     position: 'absolute'     
